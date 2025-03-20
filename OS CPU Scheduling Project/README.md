@@ -57,11 +57,17 @@ Different CPU scheduling algorithms have unique properties, and choosing the rig
 
 ### Usage
 
-1. **Compile the project**: Ensure all `.java` files are compiled. Most IDEs handle this automatically.
+1. **Compile the project**: Ensure all `.java` files are compiled. ```bash
+     mvn compile ```
+
 2. **Run the Simulator**:
+     ```bash
+        mvn exec:java
+     ```
    - Execute the main class in `src/main/` to launch the simulator's user interface.
    - Choose the desired CPU scheduling algorithm and input the process data.
-3. **View Results**:
+     
+5. **View Results**:
    - The simulator will display the sequence of process execution and calculate important metrics like waiting time, turnaround time, and CPU utilization.
 
 ### Example
